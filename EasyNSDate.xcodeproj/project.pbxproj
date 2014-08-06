@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		707621E2199297CF00EEE879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707621E1199297CF00EEE879 /* Foundation.framework */; };
+		707621E4199297CF00EEE879 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707621E3199297CF00EEE879 /* CoreGraphics.framework */; };
+		707621E6199297CF00EEE879 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707621E5199297CF00EEE879 /* UIKit.framework */; };
+		707621EC199297CF00EEE879 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 707621EA199297CF00EEE879 /* InfoPlist.strings */; };
+		707621EE199297CF00EEE879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 707621ED199297CF00EEE879 /* main.m */; };
+		707621F2199297CF00EEE879 /* JSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 707621F1199297CF00EEE879 /* JSKAppDelegate.m */; };
+		707621F5199297CF00EEE879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707621F3199297CF00EEE879 /* Main.storyboard */; };
+		707621F8199297CF00EEE879 /* JSKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707621F7199297CF00EEE879 /* JSKViewController.m */; };
+		707621FA199297CF00EEE879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707621F9199297CF00EEE879 /* Images.xcassets */; };
+		70762201199297CF00EEE879 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70762200199297CF00EEE879 /* XCTest.framework */; };
+		70762202199297CF00EEE879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707621E1199297CF00EEE879 /* Foundation.framework */; };
+		70762203199297CF00EEE879 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707621E5199297CF00EEE879 /* UIKit.framework */; };
+		7076220B199297CF00EEE879 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70762209199297CF00EEE879 /* InfoPlist.strings */; };
+		7076220D199297CF00EEE879 /* EasyNSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7076220C199297CF00EEE879 /* EasyNSDateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70762204199297CF00EEE879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707621D6199297CF00EEE879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707621DD199297CF00EEE879;
+			remoteInfo = EasyNSDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		707621DE199297CF00EEE879 /* EasyNSDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyNSDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707621E1199297CF00EEE879 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		707621E3199297CF00EEE879 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		707621E5199297CF00EEE879 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		707621E9199297CF00EEE879 /* EasyNSDate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyNSDate-Info.plist"; sourceTree = "<group>"; };
+		707621EB199297CF00EEE879 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		707621ED199297CF00EEE879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		707621EF199297CF00EEE879 /* EasyNSDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyNSDate-Prefix.pch"; sourceTree = "<group>"; };
+		707621F0199297CF00EEE879 /* JSKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSKAppDelegate.h; sourceTree = "<group>"; };
+		707621F1199297CF00EEE879 /* JSKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSKAppDelegate.m; sourceTree = "<group>"; };
+		707621F4199297CF00EEE879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		707621F6199297CF00EEE879 /* JSKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSKViewController.h; sourceTree = "<group>"; };
+		707621F7199297CF00EEE879 /* JSKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSKViewController.m; sourceTree = "<group>"; };
+		707621F9199297CF00EEE879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		707621FF199297CF00EEE879 /* EasyNSDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyNSDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70762200199297CF00EEE879 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		70762208199297CF00EEE879 /* EasyNSDateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyNSDateTests-Info.plist"; sourceTree = "<group>"; };
+		7076220A199297CF00EEE879 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7076220C199297CF00EEE879 /* EasyNSDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyNSDateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707621DB199297CF00EEE879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707621E4199297CF00EEE879 /* CoreGraphics.framework in Frameworks */,
+				707621E6199297CF00EEE879 /* UIKit.framework in Frameworks */,
+				707621E2199297CF00EEE879 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707621FC199297CF00EEE879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70762201199297CF00EEE879 /* XCTest.framework in Frameworks */,
+				70762203199297CF00EEE879 /* UIKit.framework in Frameworks */,
+				70762202199297CF00EEE879 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		707621D5199297CF00EEE879 = {
+			isa = PBXGroup;
+			children = (
+				707621E7199297CF00EEE879 /* EasyNSDate */,
+				70762206199297CF00EEE879 /* EasyNSDateTests */,
+				707621E0199297CF00EEE879 /* Frameworks */,
+				707621DF199297CF00EEE879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707621DF199297CF00EEE879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707621DE199297CF00EEE879 /* EasyNSDate.app */,
+				707621FF199297CF00EEE879 /* EasyNSDateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		707621E0199297CF00EEE879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				707621E1199297CF00EEE879 /* Foundation.framework */,
+				707621E3199297CF00EEE879 /* CoreGraphics.framework */,
+				707621E5199297CF00EEE879 /* UIKit.framework */,
+				70762200199297CF00EEE879 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		707621E7199297CF00EEE879 /* EasyNSDate */ = {
+			isa = PBXGroup;
+			children = (
+				707621F0199297CF00EEE879 /* JSKAppDelegate.h */,
+				707621F1199297CF00EEE879 /* JSKAppDelegate.m */,
+				707621F3199297CF00EEE879 /* Main.storyboard */,
+				707621F6199297CF00EEE879 /* JSKViewController.h */,
+				707621F7199297CF00EEE879 /* JSKViewController.m */,
+				707621F9199297CF00EEE879 /* Images.xcassets */,
+				707621E8199297CF00EEE879 /* Supporting Files */,
+			);
+			path = EasyNSDate;
+			sourceTree = "<group>";
+		};
+		707621E8199297CF00EEE879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				707621E9199297CF00EEE879 /* EasyNSDate-Info.plist */,
+				707621EA199297CF00EEE879 /* InfoPlist.strings */,
+				707621ED199297CF00EEE879 /* main.m */,
+				707621EF199297CF00EEE879 /* EasyNSDate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70762206199297CF00EEE879 /* EasyNSDateTests */ = {
+			isa = PBXGroup;
+			children = (
+				7076220C199297CF00EEE879 /* EasyNSDateTests.m */,
+				70762207199297CF00EEE879 /* Supporting Files */,
+			);
+			path = EasyNSDateTests;
+			sourceTree = "<group>";
+		};
+		70762207199297CF00EEE879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70762208199297CF00EEE879 /* EasyNSDateTests-Info.plist */,
+				70762209199297CF00EEE879 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		707621DD199297CF00EEE879 /* EasyNSDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70762210199297CF00EEE879 /* Build configuration list for PBXNativeTarget "EasyNSDate" */;
+			buildPhases = (
+				707621DA199297CF00EEE879 /* Sources */,
+				707621DB199297CF00EEE879 /* Frameworks */,
+				707621DC199297CF00EEE879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNSDate;
+			productName = EasyNSDate;
+			productReference = 707621DE199297CF00EEE879 /* EasyNSDate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		707621FE199297CF00EEE879 /* EasyNSDateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70762213199297CF00EEE879 /* Build configuration list for PBXNativeTarget "EasyNSDateTests" */;
+			buildPhases = (
+				707621FB199297CF00EEE879 /* Sources */,
+				707621FC199297CF00EEE879 /* Frameworks */,
+				707621FD199297CF00EEE879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70762205199297CF00EEE879 /* PBXTargetDependency */,
+			);
+			name = EasyNSDateTests;
+			productName = EasyNSDateTests;
+			productReference = 707621FF199297CF00EEE879 /* EasyNSDateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		707621D6199297CF00EEE879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JSK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Jeffsuke;
+				TargetAttributes = {
+					707621FE199297CF00EEE879 = {
+						TestTargetID = 707621DD199297CF00EEE879;
+					};
+				};
+			};
+			buildConfigurationList = 707621D9199297CF00EEE879 /* Build configuration list for PBXProject "EasyNSDate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 707621D5199297CF00EEE879;
+			productRefGroup = 707621DF199297CF00EEE879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707621DD199297CF00EEE879 /* EasyNSDate */,
+				707621FE199297CF00EEE879 /* EasyNSDateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707621DC199297CF00EEE879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707621FA199297CF00EEE879 /* Images.xcassets in Resources */,
+				707621EC199297CF00EEE879 /* InfoPlist.strings in Resources */,
+				707621F5199297CF00EEE879 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707621FD199297CF00EEE879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7076220B199297CF00EEE879 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		707621DA199297CF00EEE879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707621EE199297CF00EEE879 /* main.m in Sources */,
+				707621F8199297CF00EEE879 /* JSKViewController.m in Sources */,
+				707621F2199297CF00EEE879 /* JSKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707621FB199297CF00EEE879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7076220D199297CF00EEE879 /* EasyNSDateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70762205199297CF00EEE879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707621DD199297CF00EEE879 /* EasyNSDate */;
+			targetProxy = 70762204199297CF00EEE879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		707621EA199297CF00EEE879 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707621EB199297CF00EEE879 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		707621F3199297CF00EEE879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707621F4199297CF00EEE879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70762209199297CF00EEE879 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7076220A199297CF00EEE879 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7076220E199297CF00EEE879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7076220F199297CF00EEE879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70762211199297CF00EEE879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyNSDate/EasyNSDate-Prefix.pch";
+				INFOPLIST_FILE = "EasyNSDate/EasyNSDate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70762212199297CF00EEE879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyNSDate/EasyNSDate-Prefix.pch";
+				INFOPLIST_FILE = "EasyNSDate/EasyNSDate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70762214199297CF00EEE879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyNSDate.app/EasyNSDate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyNSDate/EasyNSDate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EasyNSDateTests/EasyNSDateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		70762215199297CF00EEE879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyNSDate.app/EasyNSDate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyNSDate/EasyNSDate-Prefix.pch";
+				INFOPLIST_FILE = "EasyNSDateTests/EasyNSDateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707621D9199297CF00EEE879 /* Build configuration list for PBXProject "EasyNSDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7076220E199297CF00EEE879 /* Debug */,
+				7076220F199297CF00EEE879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70762210199297CF00EEE879 /* Build configuration list for PBXNativeTarget "EasyNSDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70762211199297CF00EEE879 /* Debug */,
+				70762212199297CF00EEE879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70762213199297CF00EEE879 /* Build configuration list for PBXNativeTarget "EasyNSDateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70762214199297CF00EEE879 /* Debug */,
+				70762215199297CF00EEE879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 707621D6199297CF00EEE879 /* Project object */;
+}
