@@ -22,6 +22,7 @@
 		7076221C1992990300EEE879 /* JSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7076221B1992990300EEE879 /* JSKAppDelegate.m */; };
 		7076221F1992991D00EEE879 /* JSKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7076221E1992991D00EEE879 /* JSKViewController.m */; };
 		7078920619A2574B00923521 /* NSDate+EasierUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7078920519A2574B00923521 /* NSDate+EasierUtility.m */; };
+		7078920919A27BB000923521 /* NSDateFormatter+EasierUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7078920819A27BB000923521 /* NSDateFormatter+EasierUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		7076221E1992991D00EEE879 /* JSKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKViewController.m; sourceTree = "<group>"; };
 		7078920419A2574B00923521 /* NSDate+EasierUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EasierUtility.h"; sourceTree = SOURCE_ROOT; };
 		7078920519A2574B00923521 /* NSDate+EasierUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EasierUtility.m"; sourceTree = SOURCE_ROOT; };
+		7078920719A27BB000923521 /* NSDateFormatter+EasierUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+EasierUtility.h"; sourceTree = "<group>"; };
+		7078920819A27BB000923521 /* NSDateFormatter+EasierUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+EasierUtility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				7078920419A2574B00923521 /* NSDate+EasierUtility.h */,
 				7078920519A2574B00923521 /* NSDate+EasierUtility.m */,
+				7078920719A27BB000923521 /* NSDateFormatter+EasierUtility.h */,
+				7078920819A27BB000923521 /* NSDateFormatter+EasierUtility.m */,
 				70762219199298AE00EEE879 /* Sample */,
 				707621F9199297CF00EEE879 /* Images.xcassets */,
 				707621E8199297CF00EEE879 /* Supporting Files */,
@@ -267,6 +272,7 @@
 				7076221F1992991D00EEE879 /* JSKViewController.m in Sources */,
 				707621EE199297CF00EEE879 /* main.m in Sources */,
 				7076221C1992990300EEE879 /* JSKAppDelegate.m in Sources */,
+				7078920919A27BB000923521 /* NSDateFormatter+EasierUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

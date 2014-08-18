@@ -7,17 +7,13 @@
 //
 
 #import "NSDate+EasierUtility.h"
+#import "NSDateFormatter+EasierUtility.h"
 
 @implementation NSDate (EasierUtility)
 + (NSDate *)dateWithString:(NSString *)dateString format:(NSString *)format
 {
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    dateFormatter.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
-    dateFormatter.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
-    dateFormatter.timeZone = [NSTimeZone systemTimeZone];
-    
-    dateFormatter.dateFormat = format;
-    NSDate *date = [dateFormatter dateFromString:dateString];
+    NSDateFormatter *formatter = [NSDateFormatter USDateFormatterWithDateFormat:format];
+    NSDate *date = [formatter dateFromString:dateString];
     return date;
 }
 
@@ -46,15 +42,6 @@
     return date;
 }
 
-- (NSDateFormatter *)dateFormatter
-{
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    dateFormatter.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
-    dateFormatter.locale = [[NSLocale  alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
-    dateFormatter.timeZone = [NSTimeZone systemTimeZone];
-    return dateFormatter;
-}
-
 - (NSCalendar *)gregorianCalendar
 {
     return [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
@@ -63,12 +50,11 @@
 - (void)dateLog
 {
     NSDate *date = [NSDate date];
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setTimeStyle:NSDateFormatterMediumStyle];
-    [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
-    [dateFormatter setTimeZone:[NSTimeZone systemTimeZone]];
-    [dateFormatter setLocale:[[NSLocale  alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
-    NSString *dateString = [dateFormatter stringFromDate:date];
+    NSDateFormatter *formatter = [NSDateFormatter USDateFormatterWithDateFormat:nil];
+    [formatter setTimeStyle:NSDateFormatterMediumStyle];
+    [formatter setDateStyle:NSDateFormatterMediumStyle];
+    
+    NSString *dateString = [formatter stringFromDate:date];
     NSLog(@"Date is %@", dateString);
 }
 
