@@ -13,7 +13,7 @@
 {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
-    dateFormatter.locale = [NSLocale currentLocale];
+    dateFormatter.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
     dateFormatter.timeZone = [NSTimeZone systemTimeZone];
     
     dateFormatter.dateFormat = format;
@@ -50,7 +50,7 @@
 {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
-    dateFormatter.locale = [NSLocale currentLocale];
+    dateFormatter.locale = [[NSLocale  alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
     dateFormatter.timeZone = [NSTimeZone systemTimeZone];
     return dateFormatter;
 }
@@ -67,7 +67,7 @@
     [dateFormatter setTimeStyle:NSDateFormatterMediumStyle];
     [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
     [dateFormatter setTimeZone:[NSTimeZone systemTimeZone]];
-    [dateFormatter setLocale:[NSLocale currentLocale]];
+    [dateFormatter setLocale:[[NSLocale  alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
     NSString *dateString = [dateFormatter stringFromDate:date];
     NSLog(@"Date is %@", dateString);
 }

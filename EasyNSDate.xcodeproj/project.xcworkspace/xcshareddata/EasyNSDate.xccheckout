@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95984BD6-9459-451A-B8E1-A06488F26D4D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EasyNSDate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FF9CC937-BE4B-498C-BDF5-99171B345837</key>
+		<string>ssh://github.com/jeffsuke/EasyNSDate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EasyNSDate.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FF9CC937-BE4B-498C-BDF5-99171B345837</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jeffsuke/EasyNSDate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FF9CC937-BE4B-498C-BDF5-99171B345837</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF9CC937-BE4B-498C-BDF5-99171B345837</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EasyNSDate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
