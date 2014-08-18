@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'EasyNSDate'
-  spec.version      = '0.0.1'
+  spec.version      = '0.0.2'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'http://jeffsuke.hatenablog.com/'
   spec.authors      = { 'Yusuke Kawanabe' => 'ysk.kwnb.915@gmail.com' }
