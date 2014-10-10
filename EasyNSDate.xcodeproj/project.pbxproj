@@ -21,8 +21,8 @@
 		7076220D199297CF00EEE879 /* EasyNSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7076220C199297CF00EEE879 /* EasyNSDateTests.m */; };
 		7076221C1992990300EEE879 /* JSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7076221B1992990300EEE879 /* JSKAppDelegate.m */; };
 		7076221F1992991D00EEE879 /* JSKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7076221E1992991D00EEE879 /* JSKViewController.m */; };
-		7078920619A2574B00923521 /* NSDate+EasierUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7078920519A2574B00923521 /* NSDate+EasierUtility.m */; };
-		7078920919A27BB000923521 /* NSDateFormatter+EasierUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7078920819A27BB000923521 /* NSDateFormatter+EasierUtility.m */; };
+		70D9599519E7ED7500670DFE /* NSDate+EasierUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D9599219E7ED7500670DFE /* NSDate+EasierUtility.m */; };
+		70D9599619E7ED7500670DFE /* NSDateFormatter+EasierUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D9599419E7ED7500670DFE /* NSDateFormatter+EasierUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		7076221B1992990300EEE879 /* JSKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKAppDelegate.m; sourceTree = "<group>"; };
 		7076221D1992991D00EEE879 /* JSKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKViewController.h; sourceTree = "<group>"; };
 		7076221E1992991D00EEE879 /* JSKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKViewController.m; sourceTree = "<group>"; };
-		7078920419A2574B00923521 /* NSDate+EasierUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EasierUtility.h"; sourceTree = SOURCE_ROOT; };
-		7078920519A2574B00923521 /* NSDate+EasierUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EasierUtility.m"; sourceTree = SOURCE_ROOT; };
-		7078920719A27BB000923521 /* NSDateFormatter+EasierUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+EasierUtility.h"; sourceTree = "<group>"; };
-		7078920819A27BB000923521 /* NSDateFormatter+EasierUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+EasierUtility.m"; sourceTree = "<group>"; };
+		70D9599119E7ED7500670DFE /* NSDate+EasierUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EasierUtility.h"; sourceTree = "<group>"; };
+		70D9599219E7ED7500670DFE /* NSDate+EasierUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EasierUtility.m"; sourceTree = "<group>"; };
+		70D9599319E7ED7500670DFE /* NSDateFormatter+EasierUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+EasierUtility.h"; sourceTree = "<group>"; };
+		70D9599419E7ED7500670DFE /* NSDateFormatter+EasierUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+EasierUtility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +118,7 @@
 		707621E7199297CF00EEE879 /* EasyNSDate */ = {
 			isa = PBXGroup;
 			children = (
-				7078920419A2574B00923521 /* NSDate+EasierUtility.h */,
-				7078920519A2574B00923521 /* NSDate+EasierUtility.m */,
-				7078920719A27BB000923521 /* NSDateFormatter+EasierUtility.h */,
-				7078920819A27BB000923521 /* NSDateFormatter+EasierUtility.m */,
+				70D9599019E7ED6300670DFE /* EasyNSDate */,
 				70762219199298AE00EEE879 /* Sample */,
 				707621F9199297CF00EEE879 /* Images.xcassets */,
 				707621E8199297CF00EEE879 /* Supporting Files */,
@@ -168,6 +165,17 @@
 				707621F3199297CF00EEE879 /* Main.storyboard */,
 			);
 			path = Sample;
+			sourceTree = "<group>";
+		};
+		70D9599019E7ED6300670DFE /* EasyNSDate */ = {
+			isa = PBXGroup;
+			children = (
+				70D9599119E7ED7500670DFE /* NSDate+EasierUtility.h */,
+				70D9599219E7ED7500670DFE /* NSDate+EasierUtility.m */,
+				70D9599319E7ED7500670DFE /* NSDateFormatter+EasierUtility.h */,
+				70D9599419E7ED7500670DFE /* NSDateFormatter+EasierUtility.m */,
+			);
+			path = EasyNSDate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,11 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7078920619A2574B00923521 /* NSDate+EasierUtility.m in Sources */,
+				70D9599519E7ED7500670DFE /* NSDate+EasierUtility.m in Sources */,
 				7076221F1992991D00EEE879 /* JSKViewController.m in Sources */,
 				707621EE199297CF00EEE879 /* main.m in Sources */,
 				7076221C1992990300EEE879 /* JSKAppDelegate.m in Sources */,
-				7078920919A27BB000923521 /* NSDateFormatter+EasierUtility.m in Sources */,
+				70D9599619E7ED7500670DFE /* NSDateFormatter+EasierUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
