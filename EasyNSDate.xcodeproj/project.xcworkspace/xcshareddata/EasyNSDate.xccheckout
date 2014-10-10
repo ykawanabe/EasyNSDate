@@ -10,29 +10,29 @@
 	<string>EasyNSDate</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>FF9CC937-BE4B-498C-BDF5-99171B345837</key>
+		<key>DF23B7C44AAB90AAA785E1A032349325C2088A3B</key>
 		<string>ssh://github.com/jeffsuke/EasyNSDate.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>EasyNSDate.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FF9CC937-BE4B-498C-BDF5-99171B345837</key>
+		<key>DF23B7C44AAB90AAA785E1A032349325C2088A3B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/jeffsuke/EasyNSDate.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FF9CC937-BE4B-498C-BDF5-99171B345837</string>
+	<string>DF23B7C44AAB90AAA785E1A032349325C2088A3B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FF9CC937-BE4B-498C-BDF5-99171B345837</string>
+			<string>DF23B7C44AAB90AAA785E1A032349325C2088A3B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>EasyNSDate</string>
 		</dict>

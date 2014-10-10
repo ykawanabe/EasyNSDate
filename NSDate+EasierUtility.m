@@ -42,6 +42,17 @@
     return date;
 }
 
+- (NSDate *)dateMonthsAfter:(NSInteger)months
+{
+    NSCalendar *currentCalendar = [self gregorianCalendar];
+    
+    NSDateComponents *dateComponents = [currentCalendar components:NSDayCalendarUnit fromDate:self];
+    dateComponents.month = months;
+    
+    NSDate *date = [currentCalendar dateByAddingComponents:dateComponents toDate:self options:0];
+    return date;
+}
+
 - (NSCalendar *)gregorianCalendar
 {
     return [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];

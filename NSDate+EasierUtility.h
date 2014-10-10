@@ -14,5 +14,7 @@
 - (NSDate *)firstDateOfMonth;
 - (NSDate *)lastDateOfMonth;
 
+- (NSDate *)dateMonthsAfter:(NSInteger)months;
+
 - (void)dateLog;
 @end
