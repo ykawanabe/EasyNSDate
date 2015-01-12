@@ -10,4 +10,6 @@
 
 @interface NSDateFormatter (EasierUtility)
 + (NSDateFormatter *)USDateFormatterWithDateFormat:(NSString *)dateFormat;
++ (NSDateFormatter *)DateFormatterWithDateFormat:(NSString *)dateFormat;
+
 @end

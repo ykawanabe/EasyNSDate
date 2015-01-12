@@ -11,17 +11,17 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>DF23B7C44AAB90AAA785E1A032349325C2088A3B</key>
-		<string>ssh://github.com/jeffsuke/EasyNSDate.git</string>
+		<string>github.com:jeffsuke/EasyNSDate.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>EasyNSDate.xcodeproj/project.xcworkspace</string>
+	<string>EasyNSDate.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DF23B7C44AAB90AAA785E1A032349325C2088A3B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/jeffsuke/EasyNSDate.git</string>
+	<string>github.com:jeffsuke/EasyNSDate.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

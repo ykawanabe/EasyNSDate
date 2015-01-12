@@ -18,7 +18,7 @@
     }
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    formatter.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    formatter.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     formatter.locale = en_US_POSIX;
     formatter.timeZone = [NSTimeZone systemTimeZone];
     
@@ -28,5 +28,20 @@
     
     return formatter;
 }
+
++ (NSDateFormatter *)DateFormatterWithDateFormat:(NSString *)dateFormat
+{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    formatter.locale = [NSLocale currentLocale];
+    formatter.timeZone = [NSTimeZone systemTimeZone];
+    
+    if (dateFormat.length > 0) {
+        formatter.dateFormat = dateFormat;
+    }
+    
+    return formatter;
+}
+
 
 @end
